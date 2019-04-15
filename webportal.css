@@ -128,7 +128,7 @@ a:active {
 	width: 12vh;
 }
 /*==========================================================================*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 535px) {
 	.container2 {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
