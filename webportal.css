@@ -27,8 +27,8 @@ a:active {
 	justify-content: space-around;
 	margin: auto;
 	margin-top: 20px;
-	padding: 10px;
-	width: 90%;		
+	padding: 4%;
+	width: 85%;		
 }
 .container2 {
 	background-color: #003F77;
@@ -55,7 +55,7 @@ a:active {
 	margin: auto;
 	padding-left: 4%;
 	padding-right: 4%;
-	width: 84%;	
+	width: 85%;	
 }
 .container3 {
 	background-color: #003F77;
@@ -99,10 +99,10 @@ a:active {
 	text-align: center;
 }
 .rutextSmall {
-	margin-bottom: -3vh;
+	margin-bottom: -2vh;
 }
 .rutextLarge {
-	font-size: 7vh;
+	font-size: 6vh;
 }
 
 .bottomtext {
@@ -128,7 +128,7 @@ a:active {
 	width: 12vh;
 }
 /*==========================================================================*/
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 600px) {
 	.container2 {
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
