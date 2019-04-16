@@ -12,12 +12,9 @@ a {
 a:hover {
 	border: 6px solid white;
 	color: white;
+	text-shadow: 5px 5px 5px #11314d;
 }
-a:active {
-	border: 6px solid white;
-	color: white;
-	box-shadow: inset 5px 5px 5px #11314d;
-}
+
 /*--------------------------------------------------------------------------*/
 .container1 {
 	align-items: center;
@@ -69,7 +66,6 @@ a:active {
 /*--------------------------------------------------------------------------*/
 .item {
 	background-color: #BCAD75;
-	box-shadow: 10px 10px 5px #11314d;
 	border-radius: 10px;
 	padding: 20px;
 	text-align: center;
@@ -78,7 +74,6 @@ a:active {
 }
 .item2 {
 	background-color: #BCAD75;
-	box-shadow: 10px 10px 5px #11314d;
 	border-radius: 10px;
 	width: 95%;
 }
@@ -86,7 +81,6 @@ a:active {
 .toptext {
 	color: white;
 	font-size: 9vw;
-	text-shadow: 6px 6px 5px #11314d;
 	width: auto;
 }
 .smalltext {
