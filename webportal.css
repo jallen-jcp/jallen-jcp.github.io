@@ -121,6 +121,26 @@ a:hover {
 	margin: auto;
 	width: 12vh;
 }
+
+.newMoodle {
+	border: 1px solid red;
+	border-radius: 0 0 10px 10px;
+	background-color: pink;
+	padding: 10px;
+	position: fixed;
+	right: 0px;
+	text-decoration: none;
+	text-align: center;
+	top: 40%;
+	transform: rotate(90deg);
+	transform-origin: 81% 81%;
+}
+.newMoodle:hover {
+	border: 1px double red;
+	color: white;
+	text-shadow: none;
+
+}
 /*==========================================================================*/
 @media screen and (max-width: 600px) {
 	.container2 {
