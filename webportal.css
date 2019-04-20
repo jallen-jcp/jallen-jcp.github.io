@@ -122,18 +122,24 @@ a:hover {
 	width: 12vh;
 }
 
+.newMoodleContainer {
+	display: flex;
+	position: fixed;
+	right: 0px;
+	top: 40%;
+	transform: rotate(90deg);
+	transform-origin: 81% 81%;
+	align-content: flex-end;
+}
 .newMoodle {
 	border: 1px solid red;
 	border-radius: 0 0 10px 10px;
 	background-color: pink;
-	padding: 10px;
-	position: fixed;
-	right: 0px;
-	text-decoration: none;
+	padding-top: 2vh;
+	padding-left: 30px;
+	padding-right: 30px;
 	text-align: center;
-	top: 40%;
-	transform: rotate(90deg);
-	transform-origin: 81% 81%;
+	text-decoration: none;
 }
 .newMoodle:hover {
 	border: 1px double red;
